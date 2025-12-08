@@ -1,0 +1,29 @@
+# Core Flask
+flask==3.0.0
+flask-cors==4.0.0
+werkzeug==3.0.1
+requests==2.31.0
+
+# PyTorch (CPU version)
+torch
+torchvision
+
+# PaddleOCR - Advanced OCR
+# Usa opencv-headless para servidores (evita error "libGL.so")
+opencv-python-headless
+paddlepaddle
+paddleocr>=2.7.0
+
+# LayoutLM
+transformers
+datasets
+sentencepiece
+# Utilities
+pdf2image
+Pillow
+PyMuPDF
+numpy
+python-multipart
+
+# Legacy
+pytesseract
